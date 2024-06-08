@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(145deg, rgb(48, 93, 122) 49%, rgb(87, 131, 160) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+.text {
+    text-align: right;
+}
+
+.text h1 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 5px;
+    width: 75%;
+    margin-bottom: 5px;
+}
+
+.list p {
+    font-size: 24px;
+}
+
+.list p:hover {
+    background-color: rgba(151, 151, 151, 0.445);
+    cursor: pointer;
+}
+
+.list h1 {
+    font-weight: 300;
+}
+
+.list h2 {
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.preview {
+    background: linear-gradient(145deg, rgba(48, 93, 122) 49%, rgba(87, 131, 160) 100%);
+    background-size: cover;
+}
+
+.selected {
+    background-color: rgba(255, 255, 255, 0.514);
+}
