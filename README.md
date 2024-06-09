@@ -1,4 +1,4 @@
-# Welcome to Insaider Wallpapers!
+# Welcome to Insider Wallpapers!
 
 **The site was created to search for wallpapers from Windows Insider Preview!**
 

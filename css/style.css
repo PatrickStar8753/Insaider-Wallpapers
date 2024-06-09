@@ -51,11 +51,14 @@ body {
     margin-bottom: 5px;
 }
 
-.list p {
+.list a:not(h1 a) {
     font-size: 24px;
+    display: block;
+    color: white;
+    text-decoration: none;
 }
 
-.list p:hover {
+.list a:not(h1 a):hover {
     background-color: rgba(151, 151, 151, 0.445);
     cursor: pointer;
 }
@@ -63,6 +66,11 @@ body {
 .list h1 {
     font-weight: 300;
 }
+
+.list h1 a {
+    color: white;
+}
+
 
 .list h2 {
     font-weight: 400;
@@ -76,4 +84,36 @@ body {
 
 .selected {
     background-color: rgba(255, 255, 255, 0.514);
+}
+
+@media screen and (max-width: 600px){
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    
+    .list {
+        width: 95%;
+    }
+    
+    .list a:not(h1 a) {
+        display: grid !important;
+        justify-items: center;
+        padding: 10px 0px;
+    }
+    
+    .list a img {
+        width: 40px;
+        padding: 10px 0px;
+    }
+    
+}
+
+@media screen and (max-width: 370px) {
+    .logo h1 {
+        font-size: 40px;
+    }
 }
